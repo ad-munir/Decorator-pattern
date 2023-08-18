@@ -10,6 +10,6 @@ public class BasicSandwich implements Sandwich{
 
     @Override
     public String getDescription() {
-        return "Big";
+        return "Mini Sandwich";
     }
 }

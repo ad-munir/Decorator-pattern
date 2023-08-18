@@ -13,6 +13,6 @@ public class Egg extends SandwichDecorator {
 
     @Override
     public String getDescription() {
-        return super.getDescription() + ", 1 Egg";
+        return super.getDescription() + ", 1 Omelet";
     }
 }
