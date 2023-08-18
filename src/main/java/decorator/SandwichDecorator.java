@@ -10,11 +10,11 @@ public class SandwichDecorator implements Sandwich{
 
     @Override
     public double getPrice() {
-        return 0;
+        return sandwich.getPrice();
     }
 
     @Override
     public String getDescription() {
-        return null;
+        return sandwich.getDescription();
     }
 }
